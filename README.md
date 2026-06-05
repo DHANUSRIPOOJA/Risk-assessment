@@ -13,15 +13,22 @@ Cloud storage services offer flexible, scalable options for storing data. Howeve
 ● AWS Console with EC2, EBS, and EFS access ● Azure Portal with Storage Account access ● IAM credentials with sufficient permissions ● Risk Assessment Template (provided) ● Internet browser ● Microsoft Excel or Google Sheets for tabulating findings
 
 4. Procedure:
-Part A: Identifying AWS Storage Assets Step 1: Login to AWS Console ● Go to https://aws.amazon.com/console ● Log in using IAM or root credentials
+Part A: Identifying AWS Storage Assets
 
-Step 2: Identify EBS Volumes ● Navigate to EC2 > Volumes (under Elastic Block Store) ● Observe and record the following for each volume: ● Volume ID ● Size and Type (e.g., gp2, io1) ● Availability Zone ● Attached instance (if any) ● Encryption status ● Tags
+## Step 1: 
+Login to AWS Console ● Go to https://aws.amazon.com/console ● Log in using IAM or root credentials
 
-Step 3: Identify EFS File Systems ● Go to EFS > File systems ● For each file system, record: ● File system ID and name ● Mount targets (AZs) ● Throughput mode (bursting/provisioned) ● Performance mode ● Lifecycle policy ● Encryption at rest status Part B: Identifying Azure File Storage Assets
+## Step 2: 
+Identify EBS Volumes ● Navigate to EC2 > Volumes (under Elastic Block Store) ● Observe and record the following for each volume: ● Volume ID ● Size and Type (e.g., gp2, io1) ● Availability Zone ● Attached instance (if any) ● Encryption status ● Tags
 
-Step 4: Login to Azure Portal ● Go to https://portal.azure.com ● Log in using credentials with access to storage accounts
+## Step 3: 
+Identify EFS File Systems ● Go to EFS > File systems ● For each file system, record: ● File system ID and name ● Mount targets (AZs) ● Throughput mode (bursting/provisioned) ● Performance mode ● Lifecycle policy ● Encryption at rest status Part B: Identifying Azure File Storage Assets
 
-Step 5: View File Shares ● Navigate to Storage Accounts > Choose Account > File Shares ● For each file share, record: ● Name ● Quota (in GB) ● Used space ● Protocol (SMB/NFS) ● Authentication method (SAS Tokens, Azure AD, Shared Keys) ● Snapshot policies
+## Step 4: 
+Login to Azure Portal ● Go to https://portal.azure.com ● Log in using credentials with access to storage accounts
+
+## Step 5: 
+View File Shares ● Navigate to Storage Accounts > Choose Account > File Shares ● For each file share, record: ● Name ● Quota (in GB) ● Used space ● Protocol (SMB/NFS) ● Authentication method (SAS Tokens, Azure AD, Shared Keys) ● Snapshot policies
 
 5. Risk Assessment Methodology
 Use the following CIA-based asset-oriented checklist for each asset: image
