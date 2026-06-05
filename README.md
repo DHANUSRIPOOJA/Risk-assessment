@@ -1,10 +1,11 @@
-Risk-assessment
-NAME: K DHANUSRI POOJA
-REG NO:212224040068
-Aim:
+## Risk-assessment
+## NAME: K DHANUSRI POOJA
+## REG NO:212224040068
+
+## Aim:
 To perform an asset-oriented risk assessment of cloud storage assets including: ● AWS Elastic Block Store (EBS) ● AWS Elastic File System (EFS) ● Azure Files (File Storage)
 
-Pre-requisites:
+## Pre-requisites:
 1.Background:
 Cloud storage services offer flexible, scalable options for storing data. However, each storage type brings distinct security risks and configurations. This experiment focuses on identifying assets and performing a detailed risk assessment based on confidentiality, integrity, and availability (CIA), access control, encryption, and auditing capabilities.
 
@@ -24,9 +25,11 @@ Step 5: View File Shares ● Navigate to Storage Accounts > Choose Account > Fil
 
 5. Risk Assessment Methodology
 Use the following CIA-based asset-oriented checklist for each asset: image
+<img width="1317" height="303" alt="image" src="https://github.com/user-attachments/assets/7dc2bdd0-4d45-4fb7-a801-0fd4c8691b82" />
 
-Sample Output:
-image
+## Sample Output:
+<img width="1239" height="430" alt="image" src="https://github.com/user-attachments/assets/563cba92-b2fb-4392-bda1-38d1f9ba9fa0" />
+
 
 6. Observations and Tabulation
 Cloud Provider Asset Type Asset ID Encrypted Access Control Risk Level Comments AWS EBS Volume vol-abc Yes IAM Policy Medium Used by EC2 AWS EFS fs-xyz Yes Security Group Low Multi-AZ mount Azure File Share datafiles Yes Shared Key Medium Quota 1TB
